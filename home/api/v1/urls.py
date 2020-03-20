@@ -1,10 +1,10 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .viewsets import (
-    CustomModel344pmViewSet,
     CustomModel345pmViewSet,
-    CustomTextViewSet,
+    CustomModel344pmViewSet,
     HomePageViewSet,
+    CustomTextViewSet,
 )
 
 from home.api.v1.viewsets import (
